@@ -1,0 +1,23 @@
+{
+  "name": "high-roller-game",
+  "version": "1.0.0",
+  "description": "Vending Machine Game for Game Developers",
+  "main": "app.js",
+  "scripts": {
+    "start": "kill -9 $(lsof -ti:3000) && node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadIrfanAliCiel/vhigh-roller-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadIrfanAliCiel/vhigh-roller-game/issues"
+  },
+  "homepage": "https://github.com/MuhammadIrfanAliCiel/vhigh-roller-game#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
